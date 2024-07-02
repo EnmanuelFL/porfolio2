@@ -1,0 +1,243 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap'); */
+body {
+   display: flex;
+    background-color: #621111;
+    font-family: "Inika", serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   font-weight: 700;
+   font-style: normal;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+}
+header {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    font-size: 2rem;
+}
+nav ul li a {
+    color: #FFFFFF;
+}
+H2 {
+color: #FFFFFF;
+font-style: normal;
+}
+p {
+color: #FEC5C5;
+}
+ul {
+    color: #FFFFFF;
+    margin: 0;
+}
+.line {
+    display: flex;
+    text-decoration: underline;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+.photo {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+
+}
+.photo a {
+    display: flex;
+    justify-content: end;
+}
+.photo img {
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.intro {
+   
+    width: 60%;
+}
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+.intro .btn-rs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+.intro .btn-rs a {
+    margin-left: 1rem;
+}
+.intro .btn-rs .contact-btn {
+    color: #621111;
+    background-color: #fffa8b;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.intro .btn-rs .contact-btn svg {
+    margin-left: 10px;
+}
+.proyect-container {
+    display: flex;
+    gap: 35px;
+    width: 100%;
+    flex-direction: row;
+    
+    
+}
+.text1 {
+    display: flex;
+    
+    
+}
+.ftp1 img {
+    display: flex;
+    border-radius: 10%;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+}
+.proyect-title {
+    color: #FFFFFF;
+    font-size: 25px;
+   
+}
+.proyect-container p {
+   color: #FFFFFF;
+}
+.ftp1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 5%;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+.proyects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.text1 h4 {
+    color: #fffa8b;
+}
+.proyects h3 {
+    color: #fffa8b;
+    font-size: 2rem;
+}
+.sobremi {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   color: #fffa8b;
+   width: 80%;
+    font-size: 1.5rem;
+   
+}
+.sobremi h5 {
+    font-size: 2rem;
+}
+.sobremi p{
+    color: #FFFFFF;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fffa8b;
+    width: 80%;
+    font-size: 30px;
+}
+.hb {
+    font-size: 2rem;
+    width: 100%;
+}
+.habilidades p {
+    color: #000000;
+
+}
+.habilidades .text-habilidad {
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+}
+.text-habilidad p{
+    display: inline-block;
+    background-color: #D9D9D9 ;
+    border-radius: 40%;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.ftcp {
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+}
+.content-habilidades {
+    display: flex;
+    width: 90vw;
+    flex-direction: row;
+}
+.habilidades-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.habilidades-right {
+    width: 50%;
+}
+.habilidades-right img {
+    width: 100%;
+    margin-left: -100%;   
+}
+.contact- {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
