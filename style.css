@@ -45,6 +45,7 @@ font-style: normal;
 }
 p {
 color: #FEC5C5;
+
 }
 ul {
     color: #FFFFFF;
@@ -60,14 +61,12 @@ ul {
     margin-top: 5rem;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    
+    width: 100%;    
 }
 .photo {
     display: flex;
     width: 40%;
     justify-content: flex-end;
-
 }
 .photo a {
     display: flex;
@@ -76,7 +75,6 @@ ul {
 .photo img {
     border-radius: 10px;
     width: 100%;
-
 }
 
 .intro {
@@ -114,14 +112,10 @@ ul {
     display: flex;
     gap: 35px;
     width: 100%;
-    flex-direction: row;
-    
-    
+    flex-direction: row;        
 }
 .text1 {
-    display: flex;
-    
-    
+    display: flex;  
 }
 .ftp1 img {
     display: flex;
@@ -152,6 +146,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 60%;
+    font-size: 30px;
     
 }
 .proyects {
@@ -298,4 +293,7 @@ footer {
 .mail .link:hover {
     color: #b3da19;
     transition: color 0.5 ease;
+}
+.intro p {
+    font-size: 25px;
 }
