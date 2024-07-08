@@ -1,33 +1,63 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap'); */
-body {
-   display: flex;
+
+ /* ESTO ES EL BODY Y HEADER*/
+body { 
+    display: flex;
     background-color: #621111;
     font-family: "Inika", serif;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-   font-weight: 700;
-   font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
 }
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #780000;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    z-index: 1000;
+    background-image: linear-gradient(#caf0f8, #e63946);
+    box-shadow: 10px 6px 52px -7px rgba(0,0,0,0.79);
+}
+
+.nav-bar a {
+    color: white; 
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav-bar .line a:hover {
+    color: #001219;
+}
+
 .container {
     display: flex;
     justify-content: center;
     width: 80%;
     align-items: center;
 }
+
 header {
     display: flex;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 nav {
     display: flex;
     width: 80%;
     justify-content: center;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,56 +66,68 @@ nav ul{
     padding: 0;
     font-size: 2rem;
 }
-nav ul li a {
-    color: #FFFFFF;
-}
+
+
 H2 {
-color: #FFFFFF;
-font-style: normal;
+    color: #FFFFFF;
+    font-style: normal;
 }
+
 p {
-color: #FEC5C5;
+    color: #FEC5C5;
 
 }
+
 ul {
     color: #FFFFFF;
     margin: 0;
 }
+
 .line {
     display: flex;
     text-decoration: underline;
 }
+
+/*AQUI ACABA EL HEADER*/
+
+/* AQUI COMIENZA LA SECTION ABOUT*/
+
 .about {
     display: flex;
     flex-direction: row;
-    margin-top: 5rem;
+    margin-top: 7rem;
     justify-content: space-between;
     align-items: center;
-    width: 100%;    
+    width: 100%;
 }
+
 .photo {
     display: flex;
     width: 40%;
     justify-content: flex-end;
 }
+
 .photo a {
     display: flex;
     justify-content: end;
 }
+
 .photo img {
     border-radius: 10px;
     width: 100%;
 }
 
 .intro {
-   
+
     width: 60%;
 }
+
 .intro h2 {
     font-size: 2rem;
     margin-bottom: 2.5rem;
     width: 100%;
 }
+
 .intro .btn-rs {
     display: flex;
     flex-direction: row;
@@ -93,9 +135,11 @@ ul {
     margin-top: 1.5rem;
     align-items: center;
 }
+
 .intro .btn-rs a {
     margin-left: 1rem;
 }
+
 .intro .btn-rs .contact-btn {
     color: #621111;
     background-color: #fffa8b;
@@ -105,35 +149,46 @@ ul {
     padding: 5px 20px;
     font-weight: bold;
 }
+
 .intro .btn-rs .contact-btn svg {
     margin-left: 10px;
 }
+
+/*AQUI ACABA LA SECTION ABOUT*/
+
+/*AQUI COMIENZA LA SECTION PROYECTS*/
+
 .proyect-container {
     display: flex;
     gap: 35px;
     width: 100%;
-    flex-direction: row;        
+    flex-direction: row;
 }
+
 .text1 {
-    display: flex;  
+    display: flex;
 }
+
 .ftp1 img {
     display: flex;
     border-radius: 10%;
     flex-direction: row;
     width: 100%;
     height: 100%;
-    
+
 }
+
 .proyect-title {
     color: #FFFFFF;
     font-size: 25px;
-   
+
 }
+
 .proyect-container p {
-   color: #FFFFFF;
+    color: #FFFFFF;
 }
-.ftp1 {
+
+.ftp1 { 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -147,37 +202,51 @@ ul {
     flex-direction: column;
     width: 60%;
     font-size: 30px;
-    
+
 }
+
 .proyects {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 80%;
-    
+
 }
+
 .text1 h4 {
     color: #fffa8b;
 }
+
 .proyects h3 {
     color: #fffa8b;
     font-size: 2rem;
 }
+
+/*AQUI ACABA LA SECTION PROYECTS*/
+
+/*AQUI COMIENZA LA SECTION SOBREMI */
+
 .sobremi {
     display: flex;
     flex-direction: column;
-   justify-content: center;
-   color: #fffa8b;
-   width: 80%;
+    justify-content: center;
+    color: #fffa8b;
+    width: 80%;
     font-size: 1.5rem;
-   
+
 }
+
 .sobremi h5 {
     font-size: 2rem;
 }
-.sobremi p{
+
+.sobremi p {
     color: #FFFFFF;
 }
+
+/*AQUI ACABA LA SECTION SOBREMI*/
+
+/*AQUI COMIENZA LA SECTION HABILIDADES*/
 
 .habilidades {
     display: flex;
@@ -187,48 +256,65 @@ ul {
     width: 80%;
     font-size: 30px;
 }
+
 .hb {
     font-size: 2rem;
     width: 100%;
 }
+
 .habilidades p {
     color: #000000;
 
 }
+
 .habilidades .text-habilidad {
     margin: 0;
     text-align: left;
     display: inline-block;
 }
-.text-habilidad p{
+
+.text-habilidad p {
     display: inline-block;
-    background-color: #D9D9D9 ;
+    background-color: #D9D9D9;
     border-radius: 40%;
     padding: 5px 20px;
     font-weight: bold;
 }
+
 .ftcp {
     margin-top: 0%;
     width: 100%;
     height: 100%;
 }
+
 .content-habilidades {
     display: flex;
     width: 90vw;
     flex-direction: row;
 }
+
 .habilidades-left {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
+
 .habilidades-right {
     width: 50%;
 }
+
 .habilidades-right img {
     width: 100%;
-    margin-left: -100%;   
+    margin-left: -100%;
+
+/*AQUI TERMINA LA SECTION HABILIDADES*/
+
+/*AQUI COMIENZA LA SECTION DE CONTACTO*/
+    
 }
+
+/*AQUI COMIENZA LA SECTION DE CONTACTO*/
+
 .contact- {
     display: flex;
     flex-direction: column;
@@ -239,36 +325,42 @@ ul {
     align-items: flex-start;
     color: #FFFFFF;
 }
-  .contak {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  }
-  .label {
+
+.contak {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label {
     color: #FFFFFF;
-  }
-  form {
+}
+
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     max-width: 400px;
-    
+
 }
+
 input {
     padding: 20px;
     border-radius: 10px;
     background-color: #AAD2F2;
 }
-.ctm {    
+
+.ctm {
     display: flex;
     width: 80%;
     flex-direction: column;
     justify-content: center;
     margin: 0;
     padding: 20px;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
+
 .bt {
     display: flex;
     padding: 20px;
@@ -276,6 +368,11 @@ input {
     font-weight: bold;
     font-size: 20px;
 }
+
+/*AQUI TERMINA LA SECTION DE CONTACTO*/
+
+/*AQUI COMIENZA EL FOOTER*/
+
 footer {
     display: flex;
     flex-direction: column;
@@ -287,13 +384,20 @@ footer {
 }
 
 .mail .link {
-    color: caf0f8;
+    color: #caf0f8;
 }
 
 .mail .link:hover {
     color: #b3da19;
     transition: color 0.5 ease;
 }
+
 .intro p {
     font-size: 25px;
 }
+
+.ctm a {
+    color: #AAD2F2;
+}
+
+/*AQUI TERMINA EL FOOTER*/
